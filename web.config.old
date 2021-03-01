@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <system.webServer>
+        <rewrite>
+            <rules>
+                <rule name="HTTP TO HTTPS" enabled="true" patternSyntax="Wildcard" stopProcessing="true">
+                    <match url="*" />
+                    <conditions logicalGrouping="MatchAny" trackAllCaptures="false">
+                        <add input="{HTTPS}" pattern="^OFF$" />
+                        <add input="{HTTP_HOST}" pattern="^localhost(:\d+)?$" />
+                    </conditions>
+                    <action type="Redirect" url="https://{HTTP_HOST}{REQUEST_URI}" redirectType="Temporary" />
+                </rule>
+                <rule name="ReverseProxyInboundRule1" enabled="true" stopProcessing="true">
+                    <match url="(.*)" />
+                    <action type="Rewrite" url="http://172.0.0.110/{R:1}" />
+                </rule>
+               
+            </rules>
+        </rewrite>
+    </system.webServer>
+</configuration>

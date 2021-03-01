@@ -1,0 +1,92 @@
+@media only screen and (max-width: 767px) {
+  .card1-circle {
+    width: 100%;
+    height: 100%;
+    margin-top: 3rem;
+  }
+  /* header */
+  .header-section-title {
+    font-size: 1.25rem;
+  }
+  .header-section-title .upper-text {
+    font-size: 1.75rem;
+    font-weight: 800;
+  }
+  .btn-dangkyuudai {
+    bottom: 52%;
+    right: 47%;
+  }
+  .btn-dangkyuudai a {
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+    padding: 0.5rem 1rem;
+  }
+  .btn-dangkyuudai a span {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  /* 1-uu dai */
+  .card1-circle {
+    width: 85vw;
+    height: 85vw;
+    margin-top: 3rem;
+  }
+  .modal .modal-dialog {
+    width: 100%;
+  }
+
+  /* 2-the manh */
+  .card-rect .card-avatar .overlay .overlay-text {
+    font-size: 2.5rem;
+  }
+
+  .card1-thumbnail img {
+    width: 48px;
+  }
+  .so-luong-co-han {
+    margin-bottom: 1.5rem;
+  }
+  /* 5-nganh dao tao */
+  .nganh-item {
+    width: 90%;
+  }
+  /* 8-du hoc */
+  .gallery {
+    column-count: 1;
+  }
+  /* footer */
+  .footer-brand img {
+    width: 180px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  /* header */
+  .btn-dangkyuudai {
+    /* bottom: 12%; */
+    /* right: 10%; */
+  }
+  .btn-dangkyuudai a {
+    font-size: 0.85rem;
+  }
+
+  /* 1-uu dai */
+  .card1-circle {
+    width: 100%;
+    height: 100%;
+    margin-top: 3rem;
+  }
+  .card1-thumbnail img {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .card1-circle {
+    width: 220px;
+    height: 220px;
+    margin-top: 3rem;
+  }
+}
