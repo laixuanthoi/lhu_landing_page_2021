@@ -13,8 +13,9 @@
     font-weight: 800;
   }
   .btn-dangkyuudai {
-    bottom: 52%;
-    right: 47%;
+    bottom: 30%;
+    right: 50%;
+    /* display: none; */
   }
   .btn-dangkyuudai a {
     font-size: 0.85rem;

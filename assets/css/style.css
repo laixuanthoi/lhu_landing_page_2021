@@ -49,8 +49,8 @@ footer {
 section {
   padding: 2.5rem 0 5rem 0;
 }
-.header-banner {
-  margin-top: 20rem;
+#header-banner {
+  margin-top: 4rem;
 }
 
 .header-section-title {
@@ -66,8 +66,8 @@ section {
 }
 .btn-dangkyuudai {
   position: absolute;
-  bottom: 20%;
-  right: 15%;
+  bottom: 16%;
+  right: 16%;
 }
 .btn-dangkyuudai a {
   background-image: -webkit-linear-gradient(0deg, #dfa209 0%, #fad065 99%);
