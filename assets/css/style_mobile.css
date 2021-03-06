@@ -86,6 +86,9 @@
   .card1-thumbnail img {
     width: 30%;
   }
+  .card-uudai {
+    margin: 0 1rem;
+  }
 }
 
 @media only screen and (max-width: 1023px) {
