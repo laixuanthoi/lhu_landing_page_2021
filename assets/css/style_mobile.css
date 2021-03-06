@@ -52,6 +52,10 @@
   .nganh-item {
     width: 90%;
   }
+  .nganh-logo {
+    width: 80%;
+    margin: 0 auto;
+  }
   /* 8-du hoc */
   .gallery {
     column-count: 1;
