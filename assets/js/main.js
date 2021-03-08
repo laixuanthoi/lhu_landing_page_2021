@@ -11,6 +11,7 @@ $(document).ready(function () {
   $(".owl-carousel").owlCarousel({
     margin: 10,
     responsiveClass: true,
+    dots: true,
     responsive: {
       0: {
         items: 1,

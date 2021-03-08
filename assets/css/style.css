@@ -18,6 +18,9 @@ body {
   height: 100%;
   scroll-behavior: smooth;
 }
+a:focus {
+  outline: none;
+}
 
 /* header */
 .spacer {
@@ -95,9 +98,10 @@ section {
 .card-uudai-text {
   bottom: 24px;
   left: 0;
+  font-size: 1.1rem;
 }
 .card-uudai-text > div {
-  max-width: 60%;
+  max-width: 65%;
 }
 
 .card1-circle {
@@ -147,6 +151,18 @@ section {
   font-size: 1rem;
 }
 
+.btn-uudai-chitiet {
+  background-image: -webkit-linear-gradient(
+    0deg,
+    #dfa209 0%,
+    hsl(43, 91%, 63%) 99%
+  );
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 1rem !important;
+  padding: 5px 10px;
+}
+
 .btn-action {
   border-radius: 36px !important;
   text-decoration: none;
@@ -166,7 +182,6 @@ section {
 
 .modal .modal-dialog {
   max-width: 75vw !important;
-  min-width: 65vw !important;
   margin: 0 auto;
 }
 .modal .modal-content {
@@ -411,6 +426,15 @@ section {
   text-align: justify;
 }
 /* footer */
+#btn-timhieuthem {
+  background-image: linear-gradient(
+    to right,
+    var(--primary-color) 0%,
+    #4ba7fe 100%
+  );
+  padding: 8px 16px;
+  font-size: 1rem;
+}
 footer a {
   color: #000;
 }

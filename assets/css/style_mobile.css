@@ -35,8 +35,14 @@
   }
   .modal .modal-dialog {
     width: 100%;
+    max-width: 99vw !important;
   }
-
+  .card-uudai-text {
+    font-size: 1.25rem;
+    /* font-weight: 550; */
+  }
+  .btn-uudai-chitiet {
+  }
   /* 2-the manh */
   .card-rect .card-avatar .overlay .overlay-text {
     font-size: 2.5rem;
